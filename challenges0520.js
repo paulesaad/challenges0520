@@ -20,21 +20,21 @@ console.assert(y >= -25 && y <= 30)
 // HINT: "global scope"
 
 
-// (function(){
-//     var score = 0
+(function(){
+    var score = 0
 
-//     function increaseScore() {
-//         score++
-//     }
+    function increaseScore() {
+        score++
+    }
 
-//     function decreaseScore() {
-//         score--
-//     }
+    function decreaseScore() {
+        score--
+    }
 
-//     function run(){
-//         increaseScore()
-//     }
-// })()
+    function run(){
+        increaseScore()
+    }
+})()
 
 
 // Write a function that takes a string as input, and returns a copy of that string reversed.
